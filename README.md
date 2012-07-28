@@ -12,7 +12,13 @@
 <tr>
   <td>MySQLのmaster(master-slave&sharding)</td>
   <td>C型。但し故障検知してフェールオーバーさせるロジックがあれば短時間で復旧できる。</td>
-  <td>(ちょっと違うけど)複数masterへのcommit時に片方のみ失敗：A型。完全な一貫性保持は難しい。
+  <td>(ちょっと違うけど)複数masterへのcommit時に片方のみ失敗：A型。完全な一貫性保持は難しい。</td>
+</td>
+</tr>
+<tr>
+  <td>MySQL Cluster</td>
+  <td>TODO</td>
+  <td>TODO</td>
 </td>
 </tr>
 <tr>
